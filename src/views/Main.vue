@@ -1,6 +1,10 @@
 <template>
- 
-    <div class="w-[150px] h-svh bg-purple-600">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+    <div>
+         <div class="w-[150px] h-svh bg-purple-600">
       <!-- pic -->
       <div class="flex justify-center py-10">
         <img
@@ -28,7 +32,7 @@
         </li>
 
         <li>
-          <router-link to="Main">
+          <router-link to="">
                       <i class="fa-solid fa-ellipsis text-white gap-10 text-3xl"></i>
 
           </router-link>
@@ -39,14 +43,19 @@
   
     </div>
 
+    </div>
 </template>
 
 <script>
 export default {
-  setup() {
-    return {};
-  },
-};
+    setup () {
+        
+
+        return {}
+    }
+}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

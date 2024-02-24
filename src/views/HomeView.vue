@@ -8,51 +8,62 @@
     <div>
      <Nuvbra/>
     </div>
- <div class=" text-center my-[-500px]">
-      <h3>hello This is a Homeview!</h3>
+    <!-- all -->
+ <div class=" text-center my-[-650px]">
+  <!-- search button -->
+  <div>
+   <i class="fa fa-search absolute py-3 mx-3 text-xl" aria-hidden="true"></i>
+    <input class=" p-2 px-[50px] outline-none border-2 rounded-lg" type="text" placeholder="search">
+  </div>
+  <!-- box and oder -->
+
+  <div class="my-[50px] sm:text-green-500">
+          <h3>ជ្រើសរើសមុខងារនីមួយៗដើម្បីប្រើ!</h3>
+          
+    <!-- box -->
+    <div class="boxflex">
+       <div class="my-[40px] justify-center">
+          <div class=" gap-10 flex justify-center ">
+           <div class="w-[100px] h-[100px] bg-purple-600">
+            hi
+        </div>
+          <div class="w-[100px] h-[100px] bg-purple-600">
+            hi
+        </div>
+          <div class="w-[100px] h-[100px] bg-purple-600">
+            hi
+        </div>
+          <div class="w-[100px] h-[100px] bg-purple-600">
+            hi
+        </div>
+    </div>
+        </div>
+
+    </div>
+       
+
+
+
+
+
+
+
+
+  </div>
+     
     </div>
 
-
-
-
-
-  <!-- button search -->
-    <div class=" text-center my-[-570px] sticky top-0">
-   <div class="flex justify-end my-[-680px] mr-10">
-      <!-- search -->
-      <div class="p-3 mr-[370px]">
-        <i class="fa-solid fa-magnifying-glass relative mx-[-40px] text-xl"></i>
-        <input
-          class="p-2 w-[400px] outline-none px-[60px] border-2 border-solid-black-500 rounded-lg"
-          type="text"
-          placeholder="Sreach"/>
-        <button
-          class="mx-[10px] w-[70px] h-[40px] rounded-lg bg-purple-600 border-none text-white font-semibold hover:bg-purple-400"
-        >
-          search
-        </button>
-      </div>
-      <!-- login -->
-      <button
-        class="my-[20px] w-[70px] h-[40px] rounded-lg bg-purple-600 border-none text-white font-semibold hover:bg-purple-400"
-      >
-        Login
-      </button>
-    </div>
- 
-    </div>
-   
-   
 </template>
 
 <script>
 import Nuvbra from "./Nuvbra.vue";
-import Sarch from "./Sarch.vue";
+import Box from "./Box.vue"
 
 export default {
   components: {
     Nuvbra,
-    Sarch,
+    Box
+  
   },
   setup() {
     return {};
@@ -60,4 +71,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style >
+@media screen and (max-width: 778px) {
+   .boxflex{
+flex-wrap: wrap;
+   }
+}
+</style>
