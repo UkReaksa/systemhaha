@@ -20,6 +20,26 @@ const router = createRouter({
       name: "Main",
       component: () => import("../views/Main.vue"),
     },
+    {
+      path: "/All",
+      name: "All",
+      component: () => import("../views/All.vue"),
+    },
+    {
+      path: "/Drk",
+      name: "Drk",
+      component: () => import("../components/Drk.vue"),
+    },
+    {
+      path: "/Kound",
+      name: "Kound",
+      component: () => import("../components/Kound.vue"),
+    },
+    {
+      path: "/Jeak",
+      name: "Jeak",
+      component: () => import("../components/Jeak.vue"),
+    },
     
   ],
 });

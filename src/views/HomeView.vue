@@ -9,45 +9,23 @@
      <Nuvbra/>
     </div>
     <!-- all -->
- <div class=" text-center my-[-650px]">
+ <div class="  sm:text-center my-[-650px]">
   <!-- search button -->
-  <div>
+  <div class=" mx-[160px]">
    <i class="fa fa-search absolute py-3 mx-3 text-xl" aria-hidden="true"></i>
     <input class=" p-2 px-[50px] outline-none border-2 rounded-lg" type="text" placeholder="search">
   </div>
   <!-- box and oder -->
 
-  <div class="my-[50px] sm:text-green-500">
-          <h3>ជ្រើសរើសមុខងារនីមួយៗដើម្បីប្រើ!</h3>
+  <div class="my-[50px]">
+    <div class=" mx-[170px] my-[50px] md:mx-[400px] xl:mx-[600px]">
+           <h3 class="w-[300px]">ជ្រើសរើសមុខងារនីមួយៗដើម្បីប្រើ!</h3>
+
+    </div>
           
     <!-- box -->
-    <div class="boxflex">
-       <div class="my-[40px] justify-center">
-          <div class=" gap-10 flex justify-center ">
-           <div class="w-[100px] h-[100px] bg-purple-600">
-            hi
-        </div>
-          <div class="w-[100px] h-[100px] bg-purple-600">
-            hi
-        </div>
-          <div class="w-[100px] h-[100px] bg-purple-600">
-            hi
-        </div>
-          <div class="w-[100px] h-[100px] bg-purple-600">
-            hi
-        </div>
-    </div>
-        </div>
-
-    </div>
-       
-
-
-
-
-
-
-
+   <Box></Box>
+<!--  -->
 
   </div>
      

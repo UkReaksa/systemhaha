@@ -11,7 +11,7 @@
       <ul
         class="text-white font-bold text-center space-y-10 py-[50px] cursor-pointer" >
         <li>
-          <router-link to="">
+          <router-link to="Home">
                       <i class="fa-solid fa-house text-white gap-10 text-3xl"></i>
 
           </router-link>
@@ -29,8 +29,8 @@
 
         <li>
           <router-link to="Main">
-                      <i class="fa-solid fa-ellipsis text-white gap-10 text-3xl"></i>
-
+                  
+             <i class="fa-solid fa-pen-to-square text-white gap-10 text-3xl"></i>
           </router-link>
         </li>
       </ul>
